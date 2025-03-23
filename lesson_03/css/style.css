@@ -1,0 +1,70 @@
+@import url("reset.css");
+
+h1 {
+	color: dodgerblue;
+}
+
+#up {
+	color: goldenrod;
+}
+
+.title-day {
+	color: yellowgreen;
+}
+
+.title-population {
+	color: thistle;
+}
+
+.title-religion {
+	color: teal;
+}
+
+.title-board {
+	color: tan;
+}
+
+.title-largest-city {
+	color: plum;
+}
+
+div.block-day {
+	color: royalblue;
+}
+
+.block-population,
+.block-city {
+	color: blue;
+}
+
+.block-religion p {
+	color: green;
+}
+
+.title-state-power+p {
+	color: navy;
+}
+
+#state-power .title-state-power {
+	color: darkorchid;
+}
+
+.block-board>p {
+	color: maroon;
+}
+
+.block-text~p {
+	color: orange;
+}
+
+.block-text+p {
+	color: fuchsia;
+}
+
+.block-text.purple {
+	color: purple;
+}
+
+[title*="верх"] {
+	color: crimson;
+}
