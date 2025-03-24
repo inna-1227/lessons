@@ -1,70 +1,90 @@
 @import url("reset.css");
 
 h1 {
-	color: dodgerblue;
+	color: darkblue;
 }
 
 #up {
-	color: goldenrod;
+	color: coral;
 }
 
 .title-day {
 	color: yellowgreen;
 }
 
-.title-population {
-	color: thistle;
+.title-nascence {
+	color: crimson;
 }
 
-.title-religion {
-	color: teal;
+.title-nestor {
+	color: darkslateblue;
 }
 
-.title-board {
-	color: tan;
-}
-
-.title-largest-city {
-	color: plum;
-}
-
-div.block-day {
-	color: royalblue;
-}
-
-.block-population,
-.block-city {
-	color: blue;
-}
-
-.block-religion p {
-	color: green;
-}
-
-.title-state-power+p {
+.title-emergence-cyrillic+p {
 	color: navy;
 }
 
-#state-power .title-state-power {
+.title-oldest-monuments {
+	color: tomato;
+}
+
+.title-monuments {
+	color: goldenrod;
+}
+
+.title-printed-publications {
+	color: rgb(255, 0, 0);
+}
+
+.title-date-change {
+	color: rgba(60, 255, 0, 0.737);
+}
+
+div.block-day {
+	color: rgb(56, 100, 230);
+}
+
+.block-nascence,
+.block-nestor {
+	color: blue;
+}
+
+.block-nestor p {
+	color: green;
+}
+
+.block-printed-publications p {
+	color: rgb(9, 74, 9);
+}
+
+.block-date-change p {
+	color: rgb(40, 23, 188);
+}
+
+#emergence-cyrillic .title-emergence-cyrillic {
 	color: darkorchid;
 }
 
-.block-board>p {
+.block-oldest-monuments>p {
 	color: maroon;
 }
 
+.block-monuments>p {
+	color: burlywood;
+}
+
 .block-text~p {
-	color: orange;
+	color: rgb(132, 255, 0);
 }
 
 .block-text+p {
-	color: fuchsia;
+	color: rgb(255, 0, 102);
 }
 
-.block-text.purple {
-	color: purple;
+.block-text.plum {
+	color: plum;
 }
 
-[title*="верх"] {
-	color: crimson;
+[class*="gen"] {
+	color: violet;
 }
