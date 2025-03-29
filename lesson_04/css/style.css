@@ -1,0 +1,94 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+h1 {
+	word-spacing: 10px;
+	letter-spacing: 5px;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+#capital {
+	font-family: "Bitter", serif;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+#capital h2 {
+	font-size: 30px;
+}
+
+#former-capital {
+	font-family: "Segoe-script", serif;
+	white-space: nowrap;
+}
+
+#former-capital p {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+
+#former-capital span {
+	text-decoration: line-through;
+	color: rgb(255, 0, 47);
+	text-decoration-color: rgb(13, 255, 0);
+}
+
+.city-1 {
+	font-style: italic;
+}
+
+.city-2 {
+	font-weight: 500;
+}
+
+.city-3 {
+	text-align: justify;
+}
+
+.city-4 {
+	text-shadow: 2px 2px 2px #0774aa;
+}
+
+.city-5 {
+	text-shadow: 2px 2px #d22575;
+}
+
+.city-6 {
+	text-transform: uppercase;
+}
+
+.city-7 {
+	text-transform: capitalize;
+}
+
+.city-8 {
+	word-spacing: 15px;
+}
+
+.city-9 {
+	text-shadow: 2px 3px #05d666;
+}
+
+#second-section {
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.second-section-title {
+	color: #1A1A1A;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.second-section-text {
+	color: #808080;
+	line-height: 1.5;
+}
