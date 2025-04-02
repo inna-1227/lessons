@@ -1,0 +1,167 @@
+
+@import url("fonts.css");
+@import url("reset.css");
+body{
+	font-family:"Poppins", sans-serif;
+	font-size: 17px;
+	color:#00008b;
+}
+#block-1{
+	padding:10px;
+	background-color:#50d100;
+	margin-top: -10px;
+	width:700px;
+	font-size: 16;
+}
+.block-text-img{
+	width:50%;
+	vertical-align: top;
+}
+.block-text-span{
+	font-size: 20px;
+}
+#block-2{
+	padding:20px 30px;
+	background-color:#6a51a9;
+	min-width:700px;
+	margin:0 auto;
+	max-height: 130px;
+}
+#block-3{
+	padding:5px 30px 40px;
+	background-color:#ecec34;
+	margin-top: 1%;
+	max-width:750px;
+	min-height: 100px;
+}
+#block-4{
+	padding:5%;
+	background-color:#ed669c;
+	height:50px;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+#block-5{
+	padding:10px 15px 40px 80px;
+	background-color:#72ff147b;
+	width:75%;
+	height:100px;
+	margin-top: 50px;
+}
+#block-6{
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	background-color:#9a46f9;
+}
+#block-7{
+	height:50px;
+	overflow:auto;
+	background-color:#ff4d00;	
+}
+#block-8{
+	height:30px;
+	overflow:auto;
+	background-color:#e4a457;	
+}
+#block-9{
+	display:none;
+}
+
+
+/*Тут макет */
+
+.layout{
+	background-color: #231F8B;
+	padding:112px 0;
+}
+.section {
+	max-width:1050px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: Montserrat, sans-serif;
+}
+.items {
+	margin-left: -15px;
+	margin-right: -15px;
+	font-size: 0;
+}
+.item {
+	width: 25%;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: top;
+}
+.content {
+	font-size: 14px;
+	line-height: 1,429; 
+	letter-spacing: 0.2px;
+	background-color: #ffffff;
+	padding: 35px 40px;
+}
+.item-hover .content{
+	background-color: #5A54F2;
+}
+.item-hover .item-title{
+	color:#ffffff;
+}
+.item-hover .item-content{
+	color:#ffffff;
+}
+.item-hover .item-decoration {
+	background-color: #ffffff;
+}
+.item-img{
+	margin-bottom: 20px;
+}
+.item-title{
+	font-family: "CircularStd", sans-serif;
+	font-weight: 700;
+	line-height: 1,5;
+	letter-spacing: 1.3px;
+	color:#0d194a;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.item-content{
+	color:#737373;
+}
+.item-decoration {
+	width: 50px;
+	height: 2px;
+	background-color: #e74040;
+	margin-bottom: 20px;
+}
+.top-item{
+	margin-top:20px;
+}
+.section .description{
+	color:#ffffff;
+}
+.description{
+	margin-bottom:70px;
+}
+.description-advantages{
+	color:#5A54F2;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1,715;
+	letter-spacing: 0.2px;
+	margin-bottom: 10px;
+}
+.description-text{
+	font-family: "CircularStd", sans-serif;
+	font-size: 14px;
+	line-height: 1,429; 
+	letter-spacing: 0.2px;
+	max-width:765px;
+}
+.description-title{
+	font-family: "CircularStd", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
