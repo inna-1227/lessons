@@ -11,7 +11,7 @@ body{
 	background-color:#50d100;
 	margin-top: -10px;
 	width:700px;
-	font-size: 16;
+	font-size: 16px;
 }
 .block-text-img{
 	width:50%;
@@ -61,14 +61,8 @@ body{
 	background-color:#ff4d00;	
 }
 #block-8{
-	height:30px;
-	overflow:auto;
-	background-color:#e4a457;	
-}
-#block-9{
 	display:none;
 }
-
 
 /*Тут макет */
 
@@ -96,7 +90,7 @@ body{
 }
 .content {
 	font-size: 14px;
-	line-height: 1,429; 
+	line-height: 1.429; 
 	letter-spacing: 0.2px;
 	background-color: #ffffff;
 	padding: 35px 40px;
@@ -119,7 +113,7 @@ body{
 .item-title{
 	font-family: "CircularStd", sans-serif;
 	font-weight: 700;
-	line-height: 1,5;
+	line-height: 1.5;
 	letter-spacing: 1.3px;
 	color:#0d194a;
 	font-size: 16px;
@@ -147,14 +141,14 @@ body{
 	color:#5A54F2;
 	font-size: 14px;
 	font-weight: 700;
-	line-height: 1,715;
+	line-height: 1.715;
 	letter-spacing: 0.2px;
 	margin-bottom: 10px;
 }
 .description-text{
 	font-family: "CircularStd", sans-serif;
 	font-size: 14px;
-	line-height: 1,429; 
+	line-height: 1.429; 
 	letter-spacing: 0.2px;
 	max-width:765px;
 }
