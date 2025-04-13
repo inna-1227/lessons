@@ -1,0 +1,201 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+@import url("https://fonts.googleapis.com/css2?family=National+Park:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+	font-family: "Neucha", cursive;
+	font-size: 17px;
+	color: #2c2c2c;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.header {
+	padding: 25px;
+	letter-spacing: 2px;
+}
+
+.navigation {
+	font-family: "National+Park", cursive;
+	font-size: 23px;
+	font-weight: 700;
+	word-spacing: 10px;
+	margin-left: 30px;
+	text-transform: capitalize;
+}
+
+
+.ecobazar-section {
+	margin-bottom: 25px;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #808080;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.ecobazar-container {
+	max-width: 678px;
+}
+
+.ecobazar-section p {
+	margin-bottom: 20px;
+}
+
+.ecobazar-section ul {
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+
+.ecobazar-section li {
+	margin-bottom: 14px;
+	padding-left: 28px;
+	background: url(../img/check.png) 0 0 / 20px no-repeat;
+}
+
+.about-section {
+	margin-bottom: 25px;
+	padding: 10px;
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	line-height: 1.625;
+	background: #302c42;
+}
+
+.about-container {
+	max-width: 1302px;
+	background: url(../img/top-wave.png) 0px 50px no-repeat,
+		url(../img/bottom-wave.png) 0 325px no-repeat;
+}
+
+
+.about-img {
+	display: inline-block;
+	max-width: 524px;
+	width: 100%;
+	min-height: 557px;
+	margin-right: 108px;
+	border-radius: 45.8% 19.08% / 43.09% 17.95%;
+	overflow: hidden;
+}
+
+.about-img img {
+	height: 100%;
+}
+
+.about-content {
+	display: inline-block;
+	max-width: 630px;
+	width: 100%;
+	padding-top: 60px;
+	vertical-align: top;
+}
+
+.about-content h2 {
+	margin-bottom: 42px;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.39;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.about-content h2>strong {
+	margin-bottom: 5px;
+}
+
+.about-content h2>span {
+	color: rgba(255, 255, 255, 0.95);
+}
+
+.text {
+	margin-bottom: 28px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-button {
+	padding: 17px 47px 16px 39px;
+	color: #343045;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.25;
+	text-transform: uppercase;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+
+
+.contact-section {
+	margin-bottom: 25px;
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.64;
+	background: #302c42;
+	color: #ffffff;
+}
+
+.contact-container {
+	max-width: 1302px;
+}
+
+.contact-list {
+	padding: 10px 25px;
+	border-radius: 90px;
+	background: radial-gradient(50.13% 2900.76% at 53.89% 50%,
+			rgba(58, 52, 86, 0.95) 0%,
+			#211e2e 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+	font-size: 0;
+}
+
+.contact-item {
+	display: inline-block;
+	max-width: 400px;
+	width: 100%;
+	padding: 20px 10px 20px 20px;
+	font-size: 14px;
+}
+
+.contact-item h2 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 10px;
+}
+
+.contact-content {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 5px 10px 70px;
+	vertical-align: top;
+}
+
+.location {
+	background: url(../img/location-icon.png) 0 50% / 70px no-repeat;
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.phone {
+	background: url(../img/phone-call.png) 0 50% / 59px no-repeat;
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.email {
+	background: url(../img/mail.png) 0 50% / 65px no-repeat;
+}
+
+
+.footer {
+	padding: 15px;
+}
