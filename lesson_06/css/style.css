@@ -29,6 +29,9 @@ body {
 	text-transform: capitalize;
 }
 
+.page {
+	margin-bottom: 25px;
+}
 
 .ecobazar-section {
 	margin-bottom: 25px;
@@ -139,7 +142,6 @@ body {
 
 
 .contact-section {
-	margin-bottom: 25px;
 	font-family: "Montserrat", sans-serif;
 	line-height: 1.64;
 	background: #302c42;
